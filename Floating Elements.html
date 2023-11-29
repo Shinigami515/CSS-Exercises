@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Exercise</title>
+<style>
+
+.float-container:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.float-box {
+width: 30%;
+height: 100px;
+margin: 10px;
+float: left;
+}
+</style>
+</head>
+<body>
+
+    <div class="float-container">
+        <div class="float-box">Box A</div>
+        <div class="float-box">Box B</div>
+        <div class="float-box">Box C</div>
+        </div>
+        
+    </body>
+    </html>
